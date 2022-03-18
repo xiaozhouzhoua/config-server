@@ -1,0 +1,20 @@
+### [/{label}/{name}-{profiles}.json]
+GET http://127.0.0.1:8888/master/test-default.json
+Accept: application/json
+
+### [/{label}/{name}-{profiles}.properties]
+GET http://127.0.0.1:8888/master/test-default.properties
+Accept: application/json
+
+### [/{label}/{name}-{profiles}.properties]
+GET http://127.0.0.1:8888/master/test-default.yml
+Accept: application/json
+
+### [/{name}-{profiles}.json]
+GET http://127.0.0.1:8888/test/default.json
+
+### [/{name}-{profiles}.json]
+GET http://127.0.0.1:8888/eureka-client-dev/default.json
+
+###
+GET http://localhost:8888/master/eureka-client-dev.yml

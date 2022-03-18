@@ -1,0 +1,16 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/xiaozhouzhoua/remote-config
+          skip-ssl-validation: true
+          default-lable: master
+          proxy:
+            https:
+              host: 192.168.0.103
+              port: '15732'
